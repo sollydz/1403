@@ -6,7 +6,7 @@ client.on('ready', async () => {
 })
 const { joinVoiceChannel } = require('@discordjs/voice');
 client.on('ready', () => {
-  client.user.setActivity("", { type: "", url: "" })
+  client.user.setActivity("Online", { type: "STREAMING", url: "https://twitch.tv" })
   setInterval(async () => {
     client.channels.fetch("1185234955161309295")
       .then((channel) => {
