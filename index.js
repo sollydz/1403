@@ -23,7 +23,7 @@ client.on('ready', () => {
 ///By Alan 
   client.user.setActivity("", { type: "", url: "" })
   setInterval(async () => {
-    client.channels.fetch("1185234642001998026")
+    client.channels.fetch("1185234955161309295")
       .then((channel) => {
         const VoiceConnection = joinVoiceChannel({
           channelId: channel.id,
