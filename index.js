@@ -8,7 +8,7 @@ const { joinVoiceChannel } = require('@discordjs/voice');
 client.on('ready', () => {
   client.user.setActivity(null)
   setInterval(async () => {
-    client.channels.fetch("1222321224647180379")
+    client.channels.fetch("1222326893563482114")
       .then((channel) => {
         const VoiceConnection = joinVoiceChannel({
           channelId: channel.id,
